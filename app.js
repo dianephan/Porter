@@ -11,13 +11,13 @@ var port = process.env.PORT || 1337
 app.use(bodyParser.urlencoded({ extended: true}));
 
 // test route
-app.get('/', function(req, res) {res.status(200).send('Hello world!');});
+app.get('/', function(req, res) {res.status(200).send('Changing more test for testing');});
 
 app.listen(port, function() {
   console.log('Listening on port ' + port);
 });
 
-app.post('/hello', function(req, res, next) {
+app.post('/test', function(req, res, next) {
   var userName = req.body.user_name;
   var botPayload = {
     text: 'Henlo ' + userName + ', welcome to the begining of the app!'
