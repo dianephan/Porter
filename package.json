@@ -1,0 +1,12 @@
+{
+  "name": "Porter",
+  "version": "0.0.1",
+  "description": "Let's hackers queue up songs for massive playlist",
+  "main": "app.js",
+  "author": "Chan and Diane",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "request": "2.56.x"
+  }
+}
